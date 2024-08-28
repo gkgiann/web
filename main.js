@@ -23,7 +23,7 @@ function generateHTML() {
       questionIndex++
     ) {
       const questionLink = document.createElement("a");
-      questionLink.href = `/atividade0${taskIndex + 1}/questao0${
+      questionLink.href = `./atividade0${taskIndex + 1}/questao0${
         questionIndex + 1
       }`;
       questionLink.textContent = `Questão 0${questionIndex + 1}`;
