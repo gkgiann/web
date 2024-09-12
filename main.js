@@ -1,4 +1,8 @@
-const directories = [{ questionsQuant: 2 }, { questionsQuant: 3 }];
+const directories = [
+  { questionsQuant: 2 },
+  { questionsQuant: 3 },
+  { questionsQuant: 1 },
+];
 
 const container = document.getElementById("container");
 

@@ -1,0 +1,83 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+
+  width: fit-content;
+  margin: 4rem auto;
+  padding: 3rem;
+
+  border-radius: 8px;
+
+  background-color: #fff;
+}
+
+.card form {
+  display: flex;
+  gap: 1rem;
+}
+
+.card form button {
+  padding: 0.4rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card form button:hover {
+  opacity: 0.8;
+}
+
+.card input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  color: #242424;
+}
+
+.result td {
+  text-align: start;
+  padding: 0 0.2rem;
+}
+
+.result td:first-child {
+  text-align: end;
+}
+
+.result .error {
+  color: darkred;
+  font-weight: bold;
+}
+.result .alert {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.card input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
