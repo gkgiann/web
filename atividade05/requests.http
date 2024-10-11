@@ -1,0 +1,27 @@
+GET http://localhost:3333/animes
+
+###
+GET http://localhost:3333/animes/122d6641-a972-4399-bebd-610a84f7afef
+
+###
+POST http://localhost:3333/animes
+content-type: application/json
+
+{
+    "name": "Jujutsu Kaisen",
+    "genre": "Ação",
+    "studio": "MAPPA"
+}
+
+###
+PUT http://localhost:3333/animes/d90dcb64-1749-47ed-8c1e-bc06ce99f53a
+content-type: application/json
+
+{
+    "name": "Demon Slayer",
+    "genre": "Ação",
+    "studio": "Ufotable"
+}
+
+###
+DELETE http://localhost:3333/animes/3bd3621d-8569-48cf-bcad-994868685ddc
